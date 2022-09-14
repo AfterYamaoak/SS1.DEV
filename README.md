@@ -1,8 +1,8 @@
-# SS1.DEV [![Discord Shield](https://discordapp.com/api/guilds/958056630321303602/widget.png)](https://discord.gg/pVeU8kN9AJ)
+# SS1.DEV [![Discord Shield](https://discordapp.com/api/guilds/958056630321303602/widget.png)](https://discord.gg/Sgkyy2sr39)
 Free Roblox Script Hub designed for shooters.  
 ***SS1.DEV is still in beta stage of development so expect some bugs or lack of features.***  
 ***Fork if you want to modify this hub or make your own based on it.***  
-Made With :heart: By ***AlexR32#0157***  
+Made With :heart: By ***SS1***  
 ### Loadstring
 ```lua
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/AfterYamaoak/SS1.DEV/main/Loader.lua"))()
