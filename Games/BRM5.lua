@@ -706,10 +706,10 @@ function TeleportCharacter(Position)
     LocalPlayer.Character.Humanoid.Sit = true
     Network:FireServer("ReplicateSkydive",1) Network:FireServer("ReplicateSkydive",2)
     local TP = Teleport(PrimaryPart.Position + Vector3.new(0,1000,0),
-    PrimaryPart.Orientation,500)
+    PrimaryPart.Orientation,900)
 
-    TP:Wait() TP:Update(Position + Vector3.new(0,1000,0),500) TP:Wait()
-    TP:Update(Position,250) TP:Wait() Controller:EndParachute() TP:Destroy()
+    TP:Wait() TP:Update(Position + Vector3.new(0,1000,0),900) TP:Wait()
+    TP:Update(Position,850) TP:Wait() Controller:EndParachute() TP:Destroy()
 
     Window:SetValue("BRM5/AntiFall",OldAF)
     Window:SetValue("BRM5/NoClip",OldNC)
