@@ -127,7 +127,7 @@ function Misc:JoinDiscord()
             ["cmd"] = "INVITE_BROWSER",
             ["nonce"] = string.lower(HttpService:GenerateGUID(false)),
             ["args"] = {
-                ["code"] = "sYqDpbPYb7"
+                ["code"] = "Sgkyy2sr39"
             }
         })
     })
